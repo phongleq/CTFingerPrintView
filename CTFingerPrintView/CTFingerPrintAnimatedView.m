@@ -29,6 +29,13 @@
         generator.numberOfRings = 5;
         NSArray *beziers = [generator generateBezierPaths];
         
+        NSMutableArray * copy = [NSMutableArray new];
+        
+        [beziers enumerateObjectsUsingBlock:^(UIBezierPath  * ori, NSUInteger idx, BOOL * _Nonnull stop) {
+            UIBezierPath *path = [UIBezierPath bezierPathWithCGPath:ori.CGPath];
+            [copy addObject:path];
+        }];
+        
         self.backgroundColor = [UIColor clearColor];
         self.backgroundView  = [[CTFingerPrintView alloc] initWithFrame: self.bounds beziers: beziers];
         self.backgroundView.tintColor = [UIColor lightGrayColor];
@@ -37,7 +44,7 @@
         [self.backgroundView showAllRidges];
         [self addSubview: self.backgroundView];
         
-        self.foregroundView = [[CTFingerPrintView alloc] initWithFrame: self.bounds beziers: beziers];
+        self.foregroundView = [[CTFingerPrintView alloc] initWithFrame: self.bounds beziers: copy];
         self.foregroundView.center = self.center;
         self.foregroundView.lineWidth = 1.0;
         [self addSubview: self.foregroundView];
