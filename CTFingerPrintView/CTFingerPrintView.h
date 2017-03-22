@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTFingerPrintAnimatedView.h"
+
 @interface FingerRidgePath : NSObject
 @property (nonatomic, strong) UIBezierPath *bezierPath;
 @property (nonatomic, assign) BOOL visible;

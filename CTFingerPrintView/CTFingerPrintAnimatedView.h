@@ -12,6 +12,7 @@ typedef enum {
     CTFingerPrintAnimationModeRandom,
     CTFingerPrintAnimationModeCycleUpDown
 } CTFingerPrintAnimationMode;
+
 @interface CTFingerPrintAnimatedView : UIView
 /** Current animation mode (if animating) */
 @property (nonatomic, readonly) CTFingerPrintAnimationMode animationMode;
