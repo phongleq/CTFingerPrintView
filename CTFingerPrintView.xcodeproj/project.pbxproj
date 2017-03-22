@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED2267431E81D60C00B59037 /* CTFingerPrintAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED22673E1E81D60C00B59037 /* CTFingerPrintAnimatedView.h */; };
+		ED2267431E81D60C00B59037 /* CTFingerPrintAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED22673E1E81D60C00B59037 /* CTFingerPrintAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED2267441E81D60C00B59037 /* CTFingerPrintAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED22673F1E81D60C00B59037 /* CTFingerPrintAnimatedView.m */; };
-		ED2267451E81D60C00B59037 /* CTFingerPrintGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2267401E81D60C00B59037 /* CTFingerPrintGenerator.h */; };
+		ED2267451E81D60C00B59037 /* CTFingerPrintGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2267401E81D60C00B59037 /* CTFingerPrintGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED2267461E81D60C00B59037 /* CTFingerPrintGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2267411E81D60C00B59037 /* CTFingerPrintGenerator.m */; };
 		ED2267471E81D60C00B59037 /* CTFingerPrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2267421E81D60C00B59037 /* CTFingerPrintView.m */; };
-		ED2267491E81D63500B59037 /* CTFingerPrintView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2267481E81D63500B59037 /* CTFingerPrintView.h */; };
+		ED2267491E81D63500B59037 /* CTFingerPrintView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2267481E81D63500B59037 /* CTFingerPrintView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
