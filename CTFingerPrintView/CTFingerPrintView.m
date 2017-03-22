@@ -196,7 +196,7 @@
                                             alpha:alpha];
     UIColor *endColor = self.tintColor;
     
-    [self.gradientView setStartColor: startColor endColor: endColor animated: self.animatingTintColor];
+    [self.gradientView setStartColor: endColor endColor: endColor animated: self.animatingTintColor];
 }
 
 - (void)visibleStateDidChangeForRidge:(FingerRidgePath*)ridge animated:(BOOL)animated duration:(float)duration {
