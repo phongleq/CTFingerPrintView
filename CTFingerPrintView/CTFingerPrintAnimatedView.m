@@ -26,7 +26,7 @@
         // Use CTFingerPrintGenerator to create a unique finger print for the finger every time
         // It will return an array of beziers to be used by the finger
         CTFingerPrintGenerator *generator = [[CTFingerPrintGenerator alloc] init];
-        generator.numberOfRings = 3;
+        generator.numberOfRings = 4;
         NSArray *beziers = [generator generateBezierPaths];
         
         NSMutableArray * copy = [NSMutableArray new];
