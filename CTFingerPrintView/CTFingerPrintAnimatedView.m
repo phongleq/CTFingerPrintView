@@ -40,13 +40,13 @@
         self.backgroundView  = [[CTFingerPrintView alloc] initWithFrame: self.bounds beziers: beziers];
         self.backgroundView.tintColor = [UIColor lightGrayColor];
         self.backgroundView.center = self.center;
-        self.backgroundView.lineWidth = 1.0;
+        self.backgroundView.lineWidth = 1.5;
         [self.backgroundView showAllRidges];
         [self addSubview: self.backgroundView];
         
         self.foregroundView = [[CTFingerPrintView alloc] initWithFrame: self.bounds beziers: copy];
         self.foregroundView.center = self.center;
-        self.foregroundView.lineWidth = 1.0;
+        self.foregroundView.lineWidth = 1.5;
         [self addSubview: self.foregroundView];
         
         self.tintColor =  [UIColor colorWithRed:0.4

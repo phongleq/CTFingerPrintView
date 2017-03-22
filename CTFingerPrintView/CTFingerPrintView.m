@@ -118,7 +118,7 @@
         [self addSubview: self.gradientView];
         
         self.backgroundColor = [UIColor clearColor];
-        self.lineWidth = 3.0;
+        self.lineWidth = 1.5;
         
         NSMutableArray *ridges = [[NSMutableArray alloc] init];
         for (UIBezierPath *path in beziers) {
